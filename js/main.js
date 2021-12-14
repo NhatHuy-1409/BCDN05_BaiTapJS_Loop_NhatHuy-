@@ -207,10 +207,7 @@ document.getElementById("btnTaoThe").onclick = function () {
  * Chuỗi số nguyên tố
  * 
  */
-
-
 document.getElementById("btnInSo").onclick = function () {
-
     var n = document.getElementById("inpSoNto").value;
     var ketQua = "";
     var count = 0;
@@ -230,7 +227,5 @@ document.getElementById("btnInSo").onclick = function () {
             count = 0;
         }
     }
-
-    document.getElementById("txtInSo").innerHTML = "Chuỗi số nguyên: " + ketQua;
-    console.log(Math.sqrt(11));
+    document.getElementById("txtInSo").innerHTML = "Chuỗi số nguyên tố: " + ketQua;
 }
